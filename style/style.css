@@ -1,0 +1,18 @@
+header {
+    position: relative;
+    height: 100vh   ;
+}
+
+
+.my_side_container {
+    height: calc(100vh - 100px);
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+}
+
+.my_nav_bar {
+    height: 100px;
+    background-color: aqua  ;
+}
