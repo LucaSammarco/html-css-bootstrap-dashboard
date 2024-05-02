@@ -1,13 +1,14 @@
-header {
-    position: relative;
-    height: 100vh   ;
+body {
+    font-family: "Roboto", sans-serif;
 }
+
 
 
 .my_side_container {
     height: calc(100vh - 100px);
-    width: 100px;
-    background-color: blue;
+    width: 130px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
     position: absolute;
     bottom: 0;
 }
@@ -38,7 +39,43 @@ header {
     border: none;
 }
 
-body > header > div.my_nav_bar > nav > div > a.d-flex.align-items-center {
+div.my_nav_bar > nav > div > a.d-flex.align-items-center {
 
     text-decoration: none;
 }
+
+
+
+.side-icons-list {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+.side-icons-list li{
+    align-items: center;
+    display: flex;
+    margin: 0.5rem 0;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.side-icons-list i {
+    margin: 5px 5px;
+    
+}
+
+.main_content {
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.boolean {
+    background-color: blue;
+    
+    color: white;
+}
+
+
