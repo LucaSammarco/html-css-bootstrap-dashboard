@@ -15,4 +15,30 @@ header {
 .my_nav_bar {
     height: 100px;
     background-color: aqua  ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 3px solid red;
+    align-items: center;
+}
+
+.my_small_logo {
+    width: 70px;
+    height: 70px;
+}
+
+.my_logo {
+    width: 120px;
+    min-height: 70px;
+}
+
+.fa-bell {
+    color: orange;
+    text-decoration: none;
+    border: none;
+}
+
+body > header > div.my_nav_bar > nav > div > a.d-flex.align-items-center {
+
+    text-decoration: none;
 }
