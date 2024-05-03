@@ -67,6 +67,7 @@ div.my_nav_bar > nav > div > a.d-flex.align-items-center {
 
 }
 
+
 .side-icons-list i {
     margin: 5px 5px;
     
@@ -84,7 +85,7 @@ div.my_nav_bar > nav > div > a.d-flex.align-items-center {
 }
 
 .my_badge {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     background-color: #155ab9;
 }
 
@@ -104,11 +105,43 @@ th, td {
     font-weight: 500;
 }
 
-tbody th::before {
-    content: 'i ';
+.table-img {
+    width: 20px;
+    margin-right: 0.5rem;
 }
-
 .table {
     margin-bottom: 0
 }
 
+.boolean-title {
+   
+}
+
+
+
+.title p{
+    margin-bottom: 0;
+    
+    font-size: 1.5rem;
+}
+
+.under_badges {
+        line-height: initial;
+        margin-bottom: 0.8rem;
+     
+}
+
+.active-students-title {
+    font-size: 0.8rem;
+}
+
+
+.new_student p {
+    font-size: 0.8rem;
+}
+
+.plus_button {
+    font-size: 0.5rem;
+    background-color: red;
+    padding: 0.3rem 0.5rem ;
+}
