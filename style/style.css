@@ -47,9 +47,9 @@ div.my_nav_bar > nav > div > a.d-flex.align-items-center {
 
 
 .side-icons-list {
-    text-decoration: none;
+   
     color: white;
-    list-style: none;
+    
     margin-top: 1rem;
     padding-left: 0;
 }
@@ -60,6 +60,11 @@ div.my_nav_bar > nav > div > a.d-flex.align-items-center {
     margin: 0.5rem 0;
     justify-content: flex-start;
     display: flex;
+}
+
+.side-icons-list li::marker{
+    content: 's';
+
 }
 
 .side-icons-list i {
@@ -78,4 +83,25 @@ div.my_nav_bar > nav > div > a.d-flex.align-items-center {
     color: white;
 }
 
+.colonna_nome {
+    width: 60% !important;
 
+}
+
+.altre_colonne {
+    width: 10%;
+    
+}
+
+th, td {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+tbody th::before {
+    content: 'i ';
+}
+
+.table {
+    margin-bottom: 0
+}
