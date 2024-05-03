@@ -78,10 +78,16 @@ div.my_nav_bar > nav > div > a.d-flex.align-items-center {
 }
 
 .boolean {
-    background-color: blue;
+    background-color: #1b72e8;
     
     color: white;
 }
+
+.my_badge {
+    font-size: 0.8rem;
+    background-color: #155ab9;
+}
+
 
 .colonna_nome {
     width: 60% !important;
@@ -105,3 +111,4 @@ tbody th::before {
 .table {
     margin-bottom: 0
 }
+
