@@ -115,7 +115,108 @@
                         <div class="col-12 col-lg-2 col-md-4">
                           <div class="d-flex new_student mt-1 pt-3 mb-1">
                             <p>Nuovo Studente</p>
-                            <button>o</button>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#fullOffcanvas" aria-controls="fullOffcanvas">
+                              Apri Form
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="fullOffcanvas" aria-labelledby="fullOffcanvasLabel">
+                              <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="fullOffcanvasLabel">Inserisci un nuovo studente</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body">
+                                <div class="offcanvas-body">
+                                  <form>
+                                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                                    <div class="row mb-4">
+                                      <div class="col">
+                                        <div class="form-outline">
+                                          <label class="form-label" for="form6Example1">First name</label>
+                                          <input type="text" id="form6Example1" class="form-control" />
+                                        </div>
+                                      </div>
+                                      <div class="col">
+                                        <div class="form-outline">
+                                          <label class="form-label" for="form6Example2">Last name</label>
+                                          <input type="text" id="form6Example2" class="form-control" />
+                                        </div>
+                                      </div>
+                                    </div>
+                                
+                                    <!-- Email password -->
+                                   <!-- Row for Email and Password inputs -->
+                          <div class="row mb-4">
+                            <!-- Email input with @ icon -->
+                            <div class="col">
+                              <label class="form-label" for="emailInput">Email</label>
+                              <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <input type="email" class="form-control" id="emailInput"  aria-label="Email" aria-describedby="basic-addon1">
+                              </div>
+                            </div>
+                            <!-- Password input -->
+                            <div class="col">
+                              <label class="form-label" for="form6ExamplePassword">Password</label>
+                              <input type="password" id="form6ExamplePassword" class="form-control" />
+                            </div>
+                          </div>
+                                
+                                    <!-- Text input -->
+                                    <div class="form-outline mb-4">
+                                      <label class="form-label" for="form6Example4">Indirizzo</label>
+                                      <input type="text" id="form6Example4" class="form-control" />
+                                    </div>
+                                
+                                    <div class="row mb-4">
+                                      <!-- Città -->
+                                      <div class="col-7">
+                                        <div class="form-outline">
+                                          <label class="form-label" for="cityInput">Città</label>
+                                          <input type="text" id="cityInput" class="form-control"  />
+                                        </div>
+                                      </div>
+                                      <!-- Stato -->
+                                      <div class="col-3">
+                                        <div class="form-outline">
+                                          <label class="form-label" for="stateSelect">Stato</label>
+                                          <select id="stateSelect" class="form-select">
+                                            <option selected>Scegli...</option>
+                                            <option value="1">Italia</option>
+                                            <option value="2">Francia</option>
+                                            <option value="3">Spagna</option>
+                                            <option value="4">Regno Unito</option>
+                                            <option value="5">Russia</option>
+                                            <option value="6">Grecia</option>
+                                            <option value="7">Turchia</option>
+                                          </select>
+                                        </div>
+                                      </div>
+                                      <!-- CAP -->
+                                      <div class="col-2">
+                                        <div class="form-outline">
+                                          <label class="form-label" for="zipInput">CAP</label>
+                                          <input type="text" id="zipInput" class="form-control"  />
+                                        </div>
+                                      </div>
+                                    </div>
+                          
+                                    <div class="input-group mb-3">
+                                     
+                                      <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+                                    </div>
+                          
+                          
+                                    <!-- Checkbox -->
+                                    <div class="form-check d-flex justify-content-start mb-4">
+                                      <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+                                      <label class="form-check-label" for="form6Example8"> Seleziona per proseguire</label>
+                                    </div>
+                                
+                                    <!-- Submit button -->
+                                    <div class="buttons d-flex">
+                                    <button type="button" class="btn btn-primary btn-block mb-4 me-1">Salva</button>
+                                    <button type="button" class="btn btn-warning btn-block mb-4">Svuota</button>
+                                    </div>
+                                  </form>
                           </div>
                         </div>
                     </div>

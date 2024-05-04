@@ -180,3 +180,14 @@ th, td {
     padding: 0 ;
     radius: 50%;
 }
+
+.offcanvas {
+    width: 50%;
+    color: black;
+  }
+
+@media (max-width: 767px) {
+    .offcanvas {
+      width: 100%;
+    }
+  }
