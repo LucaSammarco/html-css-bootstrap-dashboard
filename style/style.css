@@ -119,7 +119,7 @@ div.my_nav_bar > nav > div > a.d-flex.align-items-center {
 }
 
 .my_badge {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     background-color: #155ab9;
 }
 
@@ -186,8 +186,46 @@ th, td {
     color: black;
   }
 
+  .square-button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  
+}
+ 
+
+.to_do {
+    font-size: 0.8rem
+}
+
+.stat_card_header {
+    font-weight:400;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+
+}
+
+.stat_card_p {
+    font-size: 0.8rem;
+}
+
+
+.list-group li {
+    font-size: 0.8rem;
+} 
+
+.card-link {
+    font-size: 0.8rem;
+}
+
 @media (max-width: 767px) {
     .offcanvas {
       width: 100%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .offcanvas {
+      width: 80%;
     }
   }
