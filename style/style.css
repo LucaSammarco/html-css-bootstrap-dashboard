@@ -2,6 +2,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+main {
+    height: 100vh;
+    overflow-y: auto;
+}
 
 
 .my_side_container {
@@ -14,14 +18,18 @@ body {
 }
 
 .my_nav_bar {
-    height: 100px;
+    height: px;
     background-color: aqua  ;
     position: fixed;
     top: 0;
     width: 100%;
-    border: 3px solid red;
+    
     align-items: center;
+    z-index: 1;
+
 }
+
+
 
 .my_small_logo {
     width: 70px;
@@ -31,6 +39,10 @@ body {
 .my_logo {
     width: 120px;
     min-height: 70px;
+}
+
+.extra-elements i {
+    color: #5b5858;
 }
 
 .fa-bell {
@@ -44,6 +56,28 @@ div.my_nav_bar > nav > div > a.d-flex.align-items-center {
     text-decoration: none;
 }
 
+.input-icon-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-icon-container .fa-search {
+    position: absolute;
+    left: 10px;
+    color: #ccc;
+}
+
+.input-icon-container .form-control {
+    padding-left: 30px;
+    width: calc(100% - 20px);
+}
+
+.input-icon-container .form-control::placeholder {
+    font-size: 0.8rem;
+    background-color: li;
+}
 
 
 .side-icons-list {
@@ -141,7 +175,8 @@ th, td {
 }
 
 .plus_button {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     background-color: red;
-    padding: 0.3rem 0.5rem ;
+    padding: 0 ;
+    radius: 50%;
 }
