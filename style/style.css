@@ -126,7 +126,9 @@ div.my_nav_bar > nav > div > a.d-flex.align-items-center {
     content: '\f012';
 }
 
-.my_admin li:last-child::before { content: '\f013'; }
+.my_admin li:last-child::before { 
+    content: '\f013'; 
+}
 
 .my_side_container a {
     color: white;
@@ -275,14 +277,53 @@ th, td {
     font-size: 0.8rem;
 }
 
-@media (max-width: 767px) {
-    .offcanvas {
-      width: 100%;
-    }
-  }
+@media (max-width: 762px) {
 
-  @media (max-width: 992px) {
+    .my_side_container {
+        width: 80px;
+    }
+
+    .main_content {
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+
+    .offcanvas {
+        width: 100%;
+    }
+
+    .boolean-title {
+        padding: 0;
+    }
+
+    .title {
+        padding: 0;
+    }
+
+    .under_badges {
+        margin-bottom: 0;
+    }
+
+    
+
+}
+
+@media (max-width: 767px) {
+ 
+
+    .my_side_container li span {
+        display: none;
+    }
+}
+
+
+
+
+
+  @media (min-width: 992px) {
     .offcanvas {
       width: 80%;
     }
   }
+
+  
